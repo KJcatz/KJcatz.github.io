@@ -78,17 +78,6 @@ h3 {
 	font-weight: bold;
 }
 
-#main-menu {
-	position:relative;
-	height:55px;
-	text-align: center;
-}	
-#main-menu li{
-	float:left;
-	display:block;
-	padding:5px;
-    margin-left:10px;
-    text-indent: 60px;
 }	
 
 #page { 
