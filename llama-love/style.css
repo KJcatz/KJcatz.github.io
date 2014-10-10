@@ -53,3 +53,62 @@ table {
 /* -----------------END RESET---------------- */
 
 
+header {
+	text-indent: 10px;
+     font-family: helvetica;
+     font-style: bold;
+    position: absolute;
+    top: 50px;
+
+}
+
+body {
+	width:960px;
+	margin:0 auto;
+	position:relative;
+}
+	
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+h3 {
+	font-family: helvetica;
+	font-weight: bold;
+}	
+
+#rama { 
+	position:absolute; 
+	top:40px;
+	width:45%;
+	margin:0px;
+	padding:10px;
+	font-family: helvetica;
+}	
+
+img{float:left;
+	margin-right: 14px;
+	margin-bottom: 8px;
+}
+
+#lama {
+	position:absolute;
+    top:40px; 
+    right:0px;
+	width:45%;
+	padding:10px;
+    font-family: helvetica;
+}	
+
+h1 {margin-bottom: 5px;
+}
+
+h2 {
+	font-size: 12px;
+	color:gray;
+	margin-bottom: 15px;
+}
+
+p {
+	font-size: 15px;
+}
