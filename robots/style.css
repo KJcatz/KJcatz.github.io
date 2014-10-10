@@ -125,3 +125,7 @@ body {
 	width:20%;
 	margin:15px 15px;
 }
+
+em {
+	color:red;
+}

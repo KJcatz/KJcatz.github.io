@@ -77,6 +77,16 @@ html[xmlns] .clearfix { display: block; }
 
 header {
 	text-align: center;
+}
+
+#yeah {
+	padding: 20px;
+	background-color: white;
+}
+
+nav {
+	text-align: center;
+	padding: 0px;
 
 }
 
@@ -86,16 +96,23 @@ body {
 	position:relative;
 }
 	
+section {
+	padding:5px;
+    border-style: solid;
+    border-bottom: 3px;
+    background-color: red;
+}
+
 h1 {
     font-size: 25px;
     font-weight: bold;
 }
 
-hr { color: black; 
+hr { 
+	color: black; 
 	background: black; 
 	width: 100%; 
-	height: 4px; 
-
+	height: 4px;
 } 
 
 a {
@@ -109,39 +126,60 @@ a {
 	position:relative;
 	height:55px;
 	text-align: center;
+	padding: 2px;
+	border-top:3px;
+	border-bottom:3px;
+	border-style: solid;
 }	
+
 #main-menu li{
 	float:left;
 	display:block;
 	padding:5px;
-    margin-left:10px;
-    text-indent: 60px;
-}	
+    margin-left:5px;
+    text-indent: 30px;
 
+}	
 
 #page { 
 	float:left; 
-	width:50%;
-	margin:20px 15px;
-	padding:10px;
+	width:40%;
+	margin:15px;
+	padding:0px;
 }	
 
 #sidebar {
 	float:right;
 	width:40%;
-	margin-top:20px;
-	padding:10px;
+	margin:15px;
+	margin-right:70px;
+	padding:0px;
 }	
 
-#site-footer {
-	clear:both;
-	position:relative;
-	height:55px;
-	float:left;
+section {
+	padding:0px;
+
 }
 
-#footer-content {
-	float:right;
-	width:20%;
-	margin:15px 15px;
+em {
+	color:red;
+}
+
+footer {
+	clear:both;
+	padding-left:15px;
+	height:55px;
+	float:left;
+	width:98%;
+}
+
+.Rcorner {
+    float:right;
+    width:30%;
+    text-align:right;
+}
+
+.Lcorner {
+    float:left;
+    width:70%;
 }
