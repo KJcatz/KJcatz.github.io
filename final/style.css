@@ -91,10 +91,4 @@ body section li {
     margin-top: 20px;
 }
 
-.project img {
-    transition: all .5s ease;
-}
 
-.project:hover img {
-     transform:scale(1.1);
-}
