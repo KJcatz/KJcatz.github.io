@@ -107,13 +107,17 @@ body header nav li {
 
 html, body { background: #FFF; }
 
+#container {
+	position:relative;
+	width:100%;
+}
+
 .slides {
     padding: 0;
     max-width: 100%;
     height:auto;
     display: block;
     margin: 0 auto;
-    position: relative;
 }
 
 .slides * {
@@ -143,7 +147,8 @@ html, body { background: #FFF; }
 }
 
 .slide img {
-	position:relative;
+	display:block;
+	bottom:0px;
     width: 100%;
 }
 
