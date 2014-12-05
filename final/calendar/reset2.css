@@ -109,7 +109,7 @@ html, body { background: #FFF; }
 
 #container {
 	position:relative;
-    top:100px;
+    top:30px;
 	background-size:cover;
     display: block;
     width: 1000px;
@@ -163,7 +163,7 @@ html, body { background: #FFF; }
     height: 100%;
     display: none;
     position: absolute;
-    top:50px;
+    top:40px;
 
     opacity: .5;
     z-index: 9;
@@ -171,8 +171,8 @@ html, body { background: #FFF; }
 
     transition: opacity .2s;
 
-    color: #FFF;
-    font-size: 156pt;
+    color: black;
+    font-size: 100pt;
     text-align: center;
     line-height: 380px;
     background-color:none;
@@ -183,7 +183,9 @@ html, body { background: #FFF; }
 
 .nav label:hover { opacity: 1; }
 
-.nav .next { right: 0; }
+.nav .next { right: -175px; }
+.nav .prev { left: -175px; }
+
 
 input:checked + .slide-container  .slide {
     opacity: 1;
@@ -201,10 +203,12 @@ margin-bottom: 0px;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     padding:20px;
+    padding-bottom: 0px;
     font-family: 'Raleway', sans-serif;
-        text-transform: uppercase;
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
 p {
@@ -212,6 +216,9 @@ p {
     margin: 0em;
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-right: 800px;
     padding:20px;
     font-family: 'Raleway', sans-serif;
+    line-height: 150%;
 }
+
