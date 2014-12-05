@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<title>Karyll Catubig</title>
+    <link rel="stylesheet" type='text/css' href="reset3.css" />
+    <link href='http://fonts.googleapis.com/css?family=Raleway:500,700,400,300' rel='stylesheet' type='text/css'>
+
+    <script src="//code.jquery.com/jquery-latest.min.js"></script>
+    <script src="//unslider.com/unslider.min.js"></script>
+  </head>
+
+  <body>
+  	<header>
+      <div class="banner">
+    <ul>
+        <li>This is a slide.</li>
+        <li>This is another slide.</li>
+        <li>This is a final slide.</li>
+    </ul>
+</div>
+    </section>  
+  </body>
+</html>

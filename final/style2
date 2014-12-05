@@ -19,35 +19,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 
@@ -61,20 +61,20 @@ table {
 
 /* Clearfix */
 .clearfix:after {
-	content: ".";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	line-height: 0;
-	height: 0;
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
 }
  
 .clearfix { display: inline-block; }
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
-/* Styles after this */
- 
+
+
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
 
 header img {
@@ -107,8 +107,9 @@ body header nav li {
 
 html, body { background: #FFF; }
 
-img {
-
+#container {
+    position:relative;
+    width:100%;
 }
 
 .slides {
@@ -117,7 +118,6 @@ img {
     height:auto;
     display: block;
     margin: 0 auto;
-    position: relative;
 }
 
 .slides * {
@@ -127,7 +127,6 @@ img {
     -khtml-user-select: none;
     -webkit-user-select: none;
     -webkit-touch-callout: none;
-        background: cover;
 }
 
 .slides input { display: none; }
@@ -137,7 +136,7 @@ img {
 .slide {
     top: 0;
     opacity: 0;
-
+    max-width: 100%;
     height:auto;
     display: block;
     position: absolute;
@@ -148,7 +147,9 @@ img {
 }
 
 .slide img {
-        background: cover;
+    display:block;
+    bottom:0px;
+    width: 100%;
 }
 
 .nav label {
@@ -188,10 +189,5 @@ input:checked + .slide-container  .slide {
 
 input:checked + .slide-container .nav label { display: block; }
 
-aside img {
-    position:absolute;
-    right: 0px;
-    bottom: 0px;
-    width: 100%;
-}
+
 
