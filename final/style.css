@@ -122,6 +122,7 @@ p {
 span {
     font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 h4 {
